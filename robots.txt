@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://dmiyakawa.github.io/sitemap.xml 

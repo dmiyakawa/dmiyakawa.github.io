@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="http://dmiyakawa.github.io/atom.xml" rel="self"/>
+  <link href="http://dmiyakawa.github.io/"/>
+  <updated>2014-05-01T18:59:48+09:00</updated>
+  <id>http://dmiyakawa.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[テスト投稿]]></title>
+    <link href="http://dmiyakawa.github.io/blog/2014/05/01/tesutotou-gao/"/>
+    <updated>2014-05-01T18:56:06+09:00</updated>
+    <id>http://dmiyakawa.github.io/blog/2014/05/01/tesutotou-gao</id>
+    <content type="html"><![CDATA[<p>テスト投稿してみます。</p>
+
+<p>準備は以下を参照しました。</p>
+
+<ul>
+<li><a href="http://sys1yagi.com/blog/2014/01/07/first-post/">http://sys1yagi.com/blog/2014/01/07/first-post/</a></li>
+<li><a href="http://octopress.org/docs/deploying/github/">http://octopress.org/docs/deploying/github/</a></li>
+</ul>
+
+
+<p>Debian wheezy 7.5 を使っているのですが、
+ruby 1.8系がインストールされている(、かつrbenvを使っていない)と、
+途中で色々面倒な自体になります。
+ruby1.9.1パッケージに揃えるか、
+rbenv等で揃えるべきなようです。</p>
+]]></content>
+  </entry>
+  
+</feed>
