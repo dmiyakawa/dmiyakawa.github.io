@@ -4,7 +4,7 @@
   <title><![CDATA[もわの研究棟]]></title>
   <link href="http://dmiyakawa.github.io/atom.xml" rel="self"/>
   <link href="http://dmiyakawa.github.io/"/>
-  <updated>2014-05-01T19:21:01+09:00</updated>
+  <updated>2014-05-02T15:40:30+09:00</updated>
   <id>http://dmiyakawa.github.io/</id>
   <author>
     <name><![CDATA[あめ玉 (Twitter @amedama)]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ターミナルの動画を撮る]]></title>
+    <link href="http://dmiyakawa.github.io/blog/2014/05/02/taminarufalsedong-hua-wocuo-ru/"/>
+    <updated>2014-05-02T15:38:21+09:00</updated>
+    <id>http://dmiyakawa.github.io/blog/2014/05/02/taminarufalsedong-hua-wocuo-ru</id>
+    <content type="html"><![CDATA[<ul>
+<li><a href="https://www.youtube.com/watch?v=_XDa1ahl7fw">https://www.youtube.com/watch?v=_XDa1ahl7fw</a></li>
+<li><a href="https://gist.github.com/anonymous/3927068">https://gist.github.com/anonymous/3927068</a></li>
+</ul>
+
+
+<p>結果: <a href="https://www.youtube.com/watch?v=BrDJssegqwo">https://www.youtube.com/watch?v=BrDJssegqwo</a></p>
+
+<p>ターミナルがでかすぎて綺麗ではないけど、10分で出来た……</p>
+
+<h1>参考: やっていること</h1>
+
+<p>『Pythonによるデータ分析』のサンプルコードを実行してみただけ。
+これもこれでちょっと衝撃的なのだけど。</p>
+
+<pre><code>&gt; ipython --pylab
+In [1]&gt; plot(np.random.randn(100).cumsum())
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[テスト投稿]]></title>
