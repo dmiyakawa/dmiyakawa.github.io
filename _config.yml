@@ -5,7 +5,7 @@
 url: http://dmiyakawa.github.io
 title: もわの研究棟
 subtitle:
-author: あめ玉 (Twitter: @amedama)
+author: あめ玉 (Twitter @amedama)
 simple_search: https://www.google.com/search
 description: 技術的な内容を中心に展開する予定です
 
@@ -98,3 +98,11 @@ google_analytics_tracking_id: UA-327494-3
 
 # Facebook Like
 facebook_like: true
+
+# https://github.com/longkey1/octopress-amazon-plugin
+amazon_access_key_id: 'AKIAJF5YOOM4GEJJ4LIQ'
+amazon_secret_key: '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'
+amazon_associate_tag: 'mowanet-octpress-22'
+amazon_cache:         false
+amazon_cache_dir:     '.amazon-cache'
+amazon_country:       'jp'
