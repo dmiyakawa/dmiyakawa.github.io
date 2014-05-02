@@ -4,7 +4,7 @@
   <title><![CDATA[もわの研究棟]]></title>
   <link href="http://dmiyakawa.github.io/atom.xml" rel="self"/>
   <link href="http://dmiyakawa.github.io/"/>
-  <updated>2014-05-02T17:41:57+09:00</updated>
+  <updated>2014-05-02T18:41:27+09:00</updated>
   <id>http://dmiyakawa.github.io/</id>
   <author>
     <name><![CDATA[あめ玉 (Twitter @amedama)]]></name>
@@ -12,6 +12,43 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Your AWS Account Is Compromisedなう]]></title>
+    <link href="http://dmiyakawa.github.io/blog/2014/05/02/your-aws-account-is-compromisednau/"/>
+    <updated>2014-05-02T18:35:52+09:00</updated>
+    <id>http://dmiyakawa.github.io/blog/2014/05/02/your-aws-account-is-compromisednau</id>
+    <content type="html"><![CDATA[<p>まさにこのブログのレポジトリで発覚した凡ミスです。あいた。</p>
+
+<h2>警告の内容</h2>
+
+<blockquote><p>Dear AWS Customer,</p>
+
+<p>Your security is important to us. We recently became aware that your AWS Access Key (ending with &hellip;.) along with your Secret Key of account ending with &hellip;. are publicly available on (省略). This poses a security risk to you, could lead to excessive charges from unauthorized activity or abuse, and violates the AWS Customer Agreement.</p></blockquote>
+
+<p>割とすぐに反応が来たので状況が分かりました。</p>
+
+<ul>
+<li><a href="http://note.textfile.org/20140225/amazon/">http://note.textfile.org/20140225/amazon/</a></li>
+</ul>
+
+
+<p>これを導入しようとして、色々あって途中でやめたんです。
+そのときに作った専用の名前とcredentialを公開のまま置いてしまったわけです。</p>
+
+<p>導入失敗してるので何の問題もなくユーザ自体消せばいいのです。</p>
+
+<p>＃なお、レポジトリ自体は全部公開状態なので履歴に値とか全部残ってますが、面倒なので上からは消してあります。</p>
+
+<h2>消したら</h2>
+
+<blockquote><p>Thank you for deleting your compromised AWS Access Key(s) of account ending with &hellip;.. Please ensure that no unauthorized resources remain on your account, and we ask that you pay pay special attention to IAM users and EC2 instances. Please take steps to prevent any new credentials from being published in this manner again.</p></blockquote>
+
+<p>これもしっかりしてるなー。</p>
+
+<p>びっくりした。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ターミナルの動画を撮る]]></title>
